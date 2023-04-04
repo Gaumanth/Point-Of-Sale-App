@@ -1,0 +1,10 @@
+@import "../../css-config/mixins.scss";
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100vh;
+    @include md{
+        flex-direction: row;    
+    }
+}

@@ -1,0 +1,10 @@
+@import "../../../css-config/mixins.scss";
+.right-screen {
+    height: 900px;
+    overflow: auto;
+    background-color: rgb(240, 248, 255);
+    @include md{
+        width: 55%;
+        height: auto;
+    }
+}

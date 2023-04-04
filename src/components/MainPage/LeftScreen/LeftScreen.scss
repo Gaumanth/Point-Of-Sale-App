@@ -1,0 +1,101 @@
+@import "../../../css-config/mixins.scss";
+.left-screen {
+    height: 55%;
+    overflow: auto;
+    background-color: rgb(240, 248, 255);
+    @include md{
+        width: 45%;
+        height: auto;
+    }
+    .container{
+         min-height: 100vh;
+         margin: 10px;
+         display: flex;
+         flex-direction: column;
+         .headings{   
+            display: flex;
+            justify-content: space-evenly;
+           
+         }
+         .container2{
+         .item-list{
+            min-height: 500px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .empty-cart{
+                background-color: #ffffff;
+                font-size: 30px;
+                height: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 7px;
+            }
+         }
+         .sub-total{
+            display: flex;
+            // height: 200px;
+           
+           .left{
+            width: 40%;
+            .left-subtotal{
+                border: 1px solid grey;
+                padding: 7px;
+               background-color: beige;
+            }
+           }
+           .right{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid grey;
+            background-color: white;
+          
+            .right-left{
+                width: 70%;
+                text-align: right;
+                .rl-b{
+                    border-bottom: 1px solid grey;
+                    padding: 7px;
+                }
+                
+            }
+            .right-right{
+                width: 30%;
+                .rrt-b{
+                    border-bottom: 1px solid grey;
+                    padding: 7px;
+                    }
+                
+                
+            }
+           }
+         }
+         .buttons{
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            .cancel-btn{
+                width: 50%;
+                height: 50px;
+                font-size: 18px;
+                border-radius: 5px;
+                background-color: rgb(245, 27, 27);
+                color: white;
+                border: none;
+            }
+            .process-btn{
+                width: 50%;
+                height: 50px;
+                font-size: 18px;
+                border-radius: 5px;
+                background-color: rgb(28, 150, 28);
+                color: white;
+                border: none;
+            }
+         }
+    }
+}
+}
