@@ -7,4 +7,12 @@
         width: 55%;
         height: auto;
     }
+    .container{
+        height: 100vh;
+        margin: 20px;
+        display: flex;
+        width: 90%;
+        flex-flow:wrap ;
+        
+    }
 }
