@@ -2,6 +2,7 @@ import React from 'react'
 import "./RightScreen.scss"
 import { useState } from 'react';
 import SingleProd from './SingleProd/SingleProd';
+import products from "../../../data.json"
 const RightScreen = () => {
     const [rightScrollTop,setRightScrollTop] = useState(0);
     const rightLeftScroll=(event)=>{
@@ -11,15 +12,7 @@ const RightScreen = () => {
   return (
     <div className="right-screen" onScroll={rightLeftScroll} >
       <div className="container">
-        <SingleProd/>
-        <SingleProd/>
-        <SingleProd/>
-        <SingleProd/>
-        <SingleProd/>
-        <SingleProd/>
-        <SingleProd/>
-        <SingleProd/>
-        <SingleProd/>
+       {products.map((item) => <SingleProd id={item.id} key={item.id} name={item.name} price={item.price} description={item.description} image={item.image}/>)}
       </div>
   </div>
   )

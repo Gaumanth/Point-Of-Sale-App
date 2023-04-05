@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 8px;
     height: 100vh;
+    z-index: 1;
     @include md{
         flex-direction: row;    
     }

@@ -1,0 +1,63 @@
+[{
+    "id":1,
+    "name":"Camera",
+     "price": "20000",
+     "description": "This is a Camera", 
+     "image":"https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg"
+},
+{
+    "id":2,
+    "name":"Guitar",
+     "price": "5000",
+     "description": "This is a Computer", 
+     "image":"https://images.pexels.com/photos/3428498/pexels-photo-3428498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+},
+{
+    "id":3,
+    "name":"Jacket",
+     "price": "3000",
+     "description": "This is a Jacket", 
+     "image":"https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+},
+{
+    "id":4,
+    "name":"Jeans",
+     "price": "2000",
+     "description": "This is a Jeens", 
+     "image":"https://images.pexels.com/photos/1667506/pexels-photo-1667506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+},
+{
+    "id":5,
+    "name":"Sweater",
+     "price": "1500",
+     "description": "This is Sweater", 
+     "image":"https://images.pexels.com/photos/5464589/pexels-photo-5464589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+},
+{
+    "id":6,
+    "name":"Tshirt",
+     "price": "500",
+     "description": "This is a Tshirt", 
+     "image":"https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+}
+,{
+    "id":7,
+    "name":"shirt",
+     "price": "900",
+     "description": "This is a shirt", 
+     "image":"https://images.pexels.com/photos/769749/pexels-photo-769749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+},{
+    "id":8,
+    "name":"Speakers",
+     "price": "2500",
+     "description": "This is a Speakers", 
+     "image":"https://images.pexels.com/photos/1706694/pexels-photo-1706694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+},
+{
+    "id":9,
+    "name":"Mouse",
+     "price": "1000",
+     "description": "Mouse", 
+     "image":"https://images.pexels.com/photos/383496/pexels-photo-383496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+}
+]
